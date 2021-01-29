@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { BottomNavigation, DefaultTheme, PaperProvider } from 'react-native-paper';
+import { BottomNavigation, DefaultTheme, Provider as PaperProvider, Portal } from 'react-native-paper';
 
 const theme = {
   ...DefaultTheme,
@@ -42,9 +42,7 @@ const MyComponent = () => {
 export default function App() {
   return (
     <PaperProvider theme={theme}>
-      <View>
-       <MyComponent/>
-      </View>
+      <MyComponent/>
     </PaperProvider>
   );
 }

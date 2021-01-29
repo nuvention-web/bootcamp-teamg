@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { BottomNavigation, DefaultTheme, Provider as PaperProvider, Portal } from 'react-native-paper';
+import RestaurantsScreen from 'screens/RestaurantsScreen';
 
 const theme = {
   ...DefaultTheme,

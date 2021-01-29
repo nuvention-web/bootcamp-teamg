@@ -5,7 +5,7 @@ const mockMenus = {
             {
                 "Chipotle Chicken Avocado Melt": "$9.59",
                 "Classic Grilled Cheese": "$6.59",
-                
+                "Roasted Turkey & Avocado BLT": "$10.49"
             },
             "Soups & Mac":
             {
@@ -15,9 +15,8 @@ const mockMenus = {
                 "Homestyle Chicken Noodle Soup": "$6.39"
             }
         }
-    },
-    "2": {
-        
+    }
+
     }
 };
 

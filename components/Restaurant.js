@@ -1,8 +1,9 @@
 import React from 'react';
+import { List } from 'react-native-paper';
 
 
 
-const Restaurant = ({ name, description, restaurantId, imageId }) => {
+const Restaurant = ({ name, description, id, imageId }) => {
     return(
         <List.Item
             title={name}

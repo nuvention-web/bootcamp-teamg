@@ -1,7 +1,8 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import MenuScreen from 'MenuScreen';
-import RestaurantsListScreen from 'RestaurantsListScreen';
+import MenuScreen from './MenuScreen';
+import RestaurantsListScreen from './RestaurantsListScreen';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
 
